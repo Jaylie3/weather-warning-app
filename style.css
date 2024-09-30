@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B7E0FF; /* Light blue background */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #FFF5CD; /* Light yellow background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #E78F81; /* Soft red for headings */
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+    border: 2px solid #FFCFB3; /* Peach border for input */
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FFCFB3; /* Peach background for button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E78F81; /* Change to soft red on hover */
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#location, #temperature, #description, #warning {
+    color: #333; /* Dark text for readability */
+}
